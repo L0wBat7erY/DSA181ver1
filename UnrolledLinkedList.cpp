@@ -9,7 +9,7 @@ int UnrolledLinkedList::getAt(int pos) {
 	if (pos < 0 || pos >= size) 
 		throw "IndexOutOfBoundsException"; // check whether pos is valid or not
 	// TODO
-
+    return 0;
 }
 
 void UnrolledLinkedList::setAt(int pos, int val) {
@@ -37,17 +37,17 @@ void UnrolledLinkedList::deleteAt(int pos)
 
 int UnrolledLinkedList::firstIndexOf(int val) {
 	// TODO
-
+    return 0;
 }
 
 int UnrolledLinkedList::lastIndexOf(int val) {
 	// TODO
-
+    return 0;
 }
 
 bool UnrolledLinkedList::contains(int val) {
 	// TODO
-
+    return true;
 }
 
 void UnrolledLinkedList::reverse() {
@@ -57,5 +57,6 @@ void UnrolledLinkedList::reverse() {
 
 int* UnrolledLinkedList::toArray() {
 	// TODO
-
+    int* element = NULL;
+    return element;
 }
