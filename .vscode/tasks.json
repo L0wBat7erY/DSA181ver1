@@ -6,7 +6,7 @@
         {
             "label": "Build",
             "type": "shell",
-            "command": "g++ main.cpp Node.cpp UnrolledLinkedList.cpp -o main",
+            "command": "g++ -g main.cpp Node.cpp UnrolledLinkedList.cpp -o main",
             "group": {
                 "kind": "build",
                 "isDefault": true
