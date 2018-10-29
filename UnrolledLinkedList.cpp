@@ -8,13 +8,14 @@ void UnrolledLinkedList::add(int val) {
 	Node* p = head;
 	Node* pNew = new Node(val);
 	if(p==NULL) {
+		cout<<"Error"<<endl;
 		return;
 	}
 	else {
 		while(p->next!=NULL) {
 			p=p->next;
 		}
-		//cout<<p->elements[0]<<endl;
+		cout<<p->elements[0]<<endl;
 	}
 
 }
