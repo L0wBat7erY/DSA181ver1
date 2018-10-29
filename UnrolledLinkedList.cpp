@@ -1,14 +1,30 @@
 #include"UnrolledLinkedList.h"
 
+using namespace std;
+
 void UnrolledLinkedList::add(int val) {
 	// TODO
 	
+	Node* p = head;
+	Node* pNew = new Node(val);
+	if(p==NULL) {
+		return;
+	}
+	else {
+		while(p->next!=NULL) {
+			p=p->next;
+		}
+		//cout<<p->elements[0]<<endl;
+	}
+
 }
 
 int UnrolledLinkedList::getAt(int pos) {
 	if (pos < 0 || pos >= size) 
 		throw "IndexOutOfBoundsException"; // check whether pos is valid or not
 	// TODO
+
+	return 0;
 
 }
 
@@ -37,17 +53,17 @@ void UnrolledLinkedList::deleteAt(int pos)
 
 int UnrolledLinkedList::firstIndexOf(int val) {
 	// TODO
-
+	return 0;
 }
 
 int UnrolledLinkedList::lastIndexOf(int val) {
 	// TODO
-
+	return 0;
 }
 
 bool UnrolledLinkedList::contains(int val) {
 	// TODO
-
+	return true;
 }
 
 void UnrolledLinkedList::reverse() {
@@ -57,5 +73,6 @@ void UnrolledLinkedList::reverse() {
 
 int* UnrolledLinkedList::toArray() {
 	// TODO
-
+	int* element = NULL;
+	return element;
 }
